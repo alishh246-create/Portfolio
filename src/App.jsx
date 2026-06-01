@@ -9,7 +9,7 @@ import Skills from './Components/Skills'
 
 function App() {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <Navbar/>
       <Home/>
       <About/>

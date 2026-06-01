@@ -1,3 +1,5 @@
+import React from "react"
+
 function Projects() {
   const projects = [
     {
@@ -12,14 +14,14 @@ function Projects() {
       tag: 'React · API',
       desc: 'Real-time weather forecast app with location search and temperature display.',
       link: 'https://alishh246-create.github.io/weather-app/',
-      image: '/weather.png',
+      image: 'weather.png',
     },
     {
       title: 'Property Finder App',
       tag: 'React',
       desc: 'Browse, filter, and explore property listings with a modern interface.',
       link: 'https://alishh246-create.github.io/property-dealer-app/',
-      image: '/property.png',
+      image: 'property.png',
     },
   ]
 
