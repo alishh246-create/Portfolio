@@ -7,6 +7,7 @@ function Navbar() {
       <div className="flex justify-between items-center">
         <a href="#home" className="text-[#D92243] font-extrabold text-2xl tracking-wider">A.</a>
         {/* Desktop Links */}
+        
         <ul className="hidden md:flex gap-8 list-none">
           <li><a href="#home" className="text-[#FFF5E5] font-bold text-sm uppercase tracking-widest hover:text-[#D92243] transition-all">Home</a></li>
           <li><a href="#about" className="text-[#FFF5E5] font-bold text-sm uppercase tracking-widest hover:text-[#D92243] transition-all">About</a></li>

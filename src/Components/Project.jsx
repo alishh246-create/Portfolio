@@ -23,9 +23,15 @@ function Projects() {
       link: 'https://alishh246-create.github.io/property-dealer-app/',
       image: 'property.png',
     },
+    {
+      title: 'Interior Modern Furniture',
+      tag: 'HTML,CSS + Responcive',
+      desc: 'A fully responsive interior design website featuring stylish furniture layouts, smooth navigation, and a modern aesthetic experience.',
+      link: 'https://alishh246-create.github.io/Interior_Designer/',
+      image: 'furniture.png',
+    },
   ]
-
-  return (
+return (
     <section id="projects" className="min-h-screen flex flex-col justify-center px-8 md:px-24 py-20 bg-[#0d0505]">
 
       <div className="mb-14" data-aos="fade-up">
